@@ -1,0 +1,106 @@
+
+  .navbar {
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  h1 {
+    text-shadow: 2px 2px;
+  }
+
+  .columnLeft  {
+    float: left;
+    width: 60%;
+
+  border-radius: 25px;
+  background:white ;
+  border: 2px solid #73AD21;
+  
+  padding: 10px; 
+  /* width: 200px; */
+  /* height: 100px;   */
+  }
+
+  .columnRight{
+    float: right;
+    width : 30%;
+    border-radius: 25px;
+  background:white ;
+  border: 2px solid #73AD21;
+  
+  padding: 10px; 
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+ .main{
+  text-align: left; 
+  width: 300px; 
+ }
+
+ #aside { float: right;
+         text-align:justify;
+         width: 350px;
+         margin-right: 70px;
+         position: absolute;
+         right: 30px;
+         top: 145px; 
+         
+}
+#rcorners1 {
+  border-radius: 25px;
+  background:white ;
+  border: 2px solid #73AD21;
+  
+  padding: 20px; 
+  width: 200px;
+  height: 100px;  
+}
+
+#transit {
+  transform: rotate(-10deg);
+  align-self: start;
+}
+
+.ins_list {
+  border-radius: 25px;
+  background:white ;
+  border: 2px solid #73AD21;
+  
+  padding: 10px; 
+
+}
+
+
+
+ 
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(225, 255, 0), rgb(154, 38, 3));
+  }
+
+  footer {
+    margin-top: auto;
+    color: blueviolet;
+    float: right;
+  }
+
+  /* .simple-linear {
+    background: linear-gradient(blue, pink);
+  } */
+  
+ 
+
+  
