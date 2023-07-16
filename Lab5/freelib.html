@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>My Little Free Library</title>
+   <link href="freelib.css" rel="stylesheet">
+   <link href="./images/favicon.png"  />
+   
+   <script src="freelib.js"></script>
+</head>
+<body>
+   <br /> <br />
+  <nav>
+    <div class="navbar">
+      [ <a href="About Us.html"> About Us </a>]
+      [ <a href="Programms.html"> Programms </a> ]
+      [ <a href="Support.html"> Support </a> ]
+      [ <a href="contact.html"> Contact </a> ]
+    </div> 
+  </nav>
+   <h1>Welcome to My Little Free Library</h1>
+   <p>
+      Please <b>press the buttons</b> to explore the various books that are
+      available in my library. If you want to help readers in your area
+      and build a <i>real</i> Little Free Library, please visit their
+      website at <a href="https://littlefreelibrary.org/" target="_blank">
+      https://littlefreelibrary.org/</a>.
+   </p> 
+   
+
+
+
+ <br /> <br />
+<div id="element1">
+   <table border=2 cellpadding=3 cellspacing=3 >
+      <tr>
+         <td>
+            <button onclick="displayBook(Books[0])">Book One</button>
+         </td>
+         <td rowspan="4" width="500px">
+            <div id="bookDisplay" >
+               <ul >
+                  <li><b>Title:</b> <div id="bookTitle"></div></li>
+               </ul>
+               <ul>
+                  <li><b>Author:</b> <div id="bookAuthor"></div></li>
+               </ul>
+               <ul>
+                  <li><b>Publisher:</b> <div id="bookPublisher"></div></li>
+               </ul>
+               <ul>
+                  <li><b>Publication Year:</b> <div id="bookYear"></div></li>
+               </ul>
+            </div>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <button onclick="displayBook(Books[1])">Book Two</button>
+          </td>
+          <tr>
+      <td>
+           <button onclick="displayBook(Books[2])">Book Three</button>
+         </td>
+      </tr>
+         <td>
+            <button onclick="displayBook(Books[3])">Book Four</button>
+         </td>
+      
+      </tr>
+   </table>
+</div>
+<div id="element2">
+   <div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="./images/images lab4.png" alt="library"> 
+        </div>
+        <div class="flip-box-back">
+          <h2>Library</h2>
+          <p>My littele free library</p>
+        </div>
+      </div>
+   </div>
+</div>  
+
+
+<footer><p>&copy; Copyright 2023 Mylittlefreelibrary.</p></footer>
+
+
+
+</body>
+</html>
