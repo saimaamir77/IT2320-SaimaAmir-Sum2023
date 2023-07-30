@@ -1,0 +1,97 @@
+
+.navbar {
+    float: left;
+    display: block;
+    color: rgb(255, 0, 25);
+    text-align: center;
+    padding: 10px;
+    text-decoration:aqua;
+  }
+  h1 {
+    text-shadow: 2px 2px;
+  }
+
+
+  body {
+    
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    /* display: grid;
+    grid-template-rows: auto auto auto; */
+  }
+
+  table{
+    height: 225px;
+  }
+  
+  #bookTitle, #bookAuthor, #bookPublisher, #bookYear {
+    height: 18px;
+    
+  }
+
+
+.flip-box {
+    background-color: transparent;
+    width: 225px;
+    height: 225px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+
+#element1 {float:left;}
+#element2 {margin-left : 20px;float:left;}
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: #555;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  footer {   
+    color: blueviolet;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
